@@ -1,0 +1,1177 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    height: 239px;
+    background-color: bisque;
+    font-family: 'Poppins', sans-serif;
+}
+.header1{
+    width:100% ;
+    height: 41px;
+    background-color: #5E5E4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.header1 p{
+    font-size: 14px;
+    margin: 0%;
+    text-align: center;
+    line-height: normal;
+    pointer-events: auto;
+    letter-spacing: 0.2em;
+    color: white;
+}
+.header2{
+    background-color: white;
+    width: 100%;
+    height: 198px;
+    display: flex;
+
+}
+.links{
+    height: 100%;
+    width: 28%;
+    display: flex;
+    list-style-type: none;
+    overflow: visible;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+    
+}
+.links li{
+   cursor: pointer;
+   line-height: 50px;
+   padding: 0 15px;
+   transition: .4s ease 0s;
+   font-size: 14px;
+   color: rgb(94,94,74);
+  
+   
+}
+.links li:hover{
+   transition: .4s ease 0s;
+   color: rgb(145,145,102);
+
+    
+}
+
+.logo{
+    height: 100%;
+    width: 44%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frais{
+    width: 141px;
+    height: 47px;
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animation1;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes animation1{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.frais p{
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.15em;
+    line-height: normal;
+    color:  rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+.search{
+    height: 100%;
+    width: 28%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.search .input{
+    width: 231px;
+    height: 46px;
+   
+    color: #000;
+    overflow: hidden;
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    position: absolute;
+    left: -5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: text;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    
+    
+    
+   
+
+}
+
+.search .input:hover{
+    border: 2px solid black;
+}
+.search .input i{
+    width: 15.3px;
+    height: 15.3px;
+    margin: 0 10px;
+   
+
+}
+.search a{
+    text-decoration: none;
+    color: rgb(94,94,74);
+    line-height: 50px;
+    font-size: 17px;
+    padding: 0 7px;
+    position: absolute;
+    left: 290px;
+    transition: all .4s ease 0s;
+    font-family: 'Poppins', sans-serif;
+
+
+
+
+}
+.search a:hover{
+    color: rgb(160, 160, 154);
+}
+.prof{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color:  rgb(94,94,74);
+    color: white;
+    position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.prof i{
+    position: absolute;
+    bottom: 1px;
+}
+.bag{
+    width: 43px;
+    height: 47px;
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+    left: 370px;
+    bottom: 65px;
+    font-size: 1.600rem;
+    color: rgb(94,94,74);
+    cursor: pointer;
+
+
+}
+.hero-section{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+.img1{
+    width: 1016px;
+    height: 700px;
+    position: absolute;
+    left: 210px;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.texts{
+    width: 100%;
+    height: 355px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    background-color: transparent;
+    position: relative;
+
+}
+.text1{
+    height: 100%;
+    width: 154px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 1580px;
+    z-index: 2;
+   
+   
+}
+.text1 h1{
+    margin-left: -805px;
+    font-size: 22px;
+    line-height: normal;
+    pointer-events: auto;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    color: #000;
+}
+.text1 p{
+    font-size: 69px;
+    line-height:1.2em;
+    pointer-events: auto;
+    letter-spacing: 0.1rem;
+    padding: 0 90px;
+    margin-left: -695px;
+    margin-top: 10px;
+    font-weight: 300;
+
+}
+.text1 button{
+    border: 1px solid rgb(94,94,74);
+    background-color:rgb(94,94,74) ;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ECECEC;
+    padding: 10px 37px;
+    margin-left: -1210px;
+    margin-top: 25px;
+    transition: all .4s ease 0s;
+}
+.text1 button:hover{
+    color: rgb(94,94,74);
+    border-color:rgb(94,94,74) ;
+    background-color: #ECECEC;
+}
+.icons{
+    width: 23px;
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 40px;
+    bottom:  270px;
+    z-index: 3;
+    position: fixed;
+    
+
+}
+.icons img{
+    width: 23px;
+    height: 23px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.icons .face{
+    animation-name: face;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.icons .insta{
+    animation-name: insta;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.icons .unut{
+    animation-name: unut;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes face {
+    0%{
+        transform: scale(1);
+    }
+    15%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes insta {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes unut {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+}
+
+
+
+
+.chat{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color:rgb(94,94,74) ;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ECECEC;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 3;
+    position: fixed;
+    animation: myAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes myAnimation {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.header3{
+    width: 100%;
+    height: 284px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.header3 h2{
+    
+    font-size: 40px;
+    letter-spacing: 0.15em;
+    line-height: normal;
+    font-weight: 300;
+    pointer-events: auto;
+    
+
+
+}
+.section2{
+    width: 100%;
+    height: 687px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.text3{
+    width: 490px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  
+    
+
+}
+.text3 .p1{
+    position: absolute;
+    left: -35px;
+    margin: 7px 0px 42px;
+    line-height: 1.4em;
+    font-size: 31px;
+    pointer-events: auto;
+    letter-spacing: 0.06em;
+    font-weight: 300;
+    padding-right: 90px;
+
+
+}
+.text3 .p2{
+    position: absolute;
+    left: -35px;
+    margin:130px 0 0;
+    line-height: 1.8em;
+    font-size: 15px;
+    pointer-events: auto;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    text-align: start;
+    width: 75%;
+}
+.text3 button{
+    width: 139px;
+    height: 37px;
+    border: 1px solid #5E5E4A;
+    color: #5E5E4A;
+    background-color: white;
+    transition: .4s ease 0s;
+    cursor: pointer;
+    margin-top: 340px;
+    margin-left: -35px;
+  
+}
+.text3 button:hover{
+    background-color: #5E5E4A;
+    color: white;
+}
+.pic3{
+    width: 27%;
+    height: 100%;
+    position: relative;
+
+   
+   
+
+}
+.pic3 video{
+    width: 730px;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    object-fit: cover;
+   
+}
+.section3{
+    width: 100%;
+    height: 840px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.pic4{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    position: relative;
+
+}
+.pic4 .back{
+    width: 407px;
+    height: 573px;
+    background-color: #5E5E4A;
+    position: absolute;
+    bottom: 65px;
+    left: 310px;
+}
+.pic4 img{
+    width: 456px;
+    height: 598px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 2;
+    bottom: 92px;
+    left: 345px;
+}
+.text4{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.text4 .texts{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: absolute;
+    left: 140px;
+    top: 315px;
+
+}
+.text4 .p3{
+    padding-right: 200px;
+    line-height: 1.4em;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    pointer-events: auto;
+}
+.text4 .p4{
+    line-height: 1.8em;
+    font-size: 15px;
+    pointer-events: auto;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    text-align: start;
+    width: 80%;
+    margin-top: 40px;
+
+
+
+}
+.text4 button{
+    width: 139px;
+    height: 37px;
+    border: 1px solid #5E5E4A;
+    color: #5E5E4A;
+    background-color: white;
+    transition: .4s ease 0s;
+    cursor: pointer;
+    margin-top: 35px;
+
+}
+.text4 button:hover{
+    background-color: #5E5E4A;
+    color: white;
+
+}
+
+.section-shop{
+    width: 100%;
+    height: 914.95px;
+    background-color: #D7D7CB;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.header-shop{
+    width: 100%;
+    height: 245px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+   
+}
+.header-shop h2{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    font-weight: 300;
+
+}
+.bottom-div{
+    width: 100%;
+    height: 669px;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+  
+    justify-content:center;
+}
+.imgs{
+    width: 1610px;
+    height: 430px;
+    display: flex;
+    justify-content:center;
+   
+
+}
+.bottom-div img{
+    width: 305px;
+    height: 413px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    opacity: 100%;
+    border: 0px solid;
+    border-radius: 10px;
+    margin: 0% 10px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.bottom-div img:hover{
+    transform: scale(1.1);
+}
+
+.sale1, .sale2, .sale3, .sale4{
+    width: 56.69px;
+    height: 23.59px;
+    background-color: #5E5E4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 8px;
+    cursor: pointer;
+}
+.sale1{
+    left: 130px;
+    top: 8px;
+}
+.sale2{
+    left: 782px;
+}
+.sale3{
+    left: 1108px;
+}
+.sale4{
+    left: 1433px;
+}
+.buts{
+    width: 1605px;
+    height: 205px;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buts div{
+    width: 305px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.buts p{
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 300;
+}
+.buts button{
+    width: 100%;
+    height: 40.5px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black ;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all .3s ease 0s;
+}
+.buts button:hover{
+    background-color: #5E5E4A;
+    color: #D7D7CB;
+    border-color: black;
+}
+.leftb, .rightb{
+    width: 12px;
+    height: 27px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    position: absolute; 
+    top: 165px;
+}
+.leftb{
+    left: 80px;
+}
+.rightb{
+    right: 90px;
+}
+.leftb i, .rightb i{
+  font-size: 25px;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.section4{
+    width: 100%;
+    height: 1463px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+
+}
+.header{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.htext{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 70px;
+
+}
+.htext h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    pointer-events: auto;
+}
+.htext p{
+    line-height: 1.8em;
+    font-size: 15px;
+    pointer-events: auto;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 170px;
+    margin-top: 38px;
+}
+.htext button{
+    width: 139px;
+    height: 37px;
+    border: 1px solid #5E5E4A;
+    color: #5E5E4A;
+    background-color: white;
+    transition: .4s ease 0s;
+    cursor: pointer;
+    margin-top: 35px;
+
+}
+.htext button:hover{
+    background-color: #5E5E4A;
+    color: white;
+}
+
+
+.pic5{
+    width: 100%;
+    height: 987px;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+}
+.imgb{
+    width: 872px;
+    height: 524px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    box-shadow: 0 0 0 #000;
+    user-select: none;
+    margin-top: 0%;
+    animation: animation2;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes animation2 {
+    0%{
+        transform: translateX(300px);
+    }
+    50%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(300px);
+    }
+}
+
+
+.imgf{
+    width: 508px;
+    height: 620px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    box-shadow: 0 0 0 #000;
+    user-select: none;
+    z-index: 2;
+    position: absolute;
+    top: 180px;
+    animation: animation3;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes animation3 {
+    0%{
+        transform: translateY(-200px);
+    }
+    50%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+
+.section5{
+    width: 100%;
+    height: 972px;
+    display: flex;
+    background-color: #F3F3EF;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.header5{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+
+}
+.header5 h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    pointer-events: auto;
+
+
+}
+.section{
+    width: 100%;
+    height: 722px;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    justify-content: center;
+   
+}
+.section img{
+    width: 269px;
+    height: 358.6666666666667px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    margin: 0 32px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.section img:hover{
+    transform: scale(1.1);
+}
+.section .texts{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+}
+.section .texts .text1c{
+    width: 15%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 455px;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+}
+.section .texts .text1c:hover{
+    color: #5E5E4A;
+}
+
+.text1c .p1{
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 450;
+    
+
+}
+.text1c .p2{
+    line-height: 1.7em;
+    font-size: 13.2px;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    margin-top: 15px;
+   
+}
+
+.section .texts .text2c{
+    width: 15%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 770px;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+}
+.section .texts .text2c:hover{
+    color: #5E5E4A;
+
+}
+.text2c .p1{
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 450;
+    padding: 0 20px;
+}
+.text2c .p2{
+    line-height: 1.7em;
+    font-size: 13.2px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 100%;
+}
+.section .texts .text3c{
+    width: 15%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 465px;
+    top: 0;
+    transition: all .3 ease 0s;
+    cursor: pointer;
+ 
+    
+
+}
+.section .texts .text3c:hover{
+    color: #5E5E4A;
+
+}
+.text3c .p1{
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 450;
+    padding:0 15px;
+}
+.text3c .p2{
+    line-height: 1.7em;
+    font-size: 13.2px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: 15px;
+    width: 100%;
+}
+.section .texts button{
+    width: 139px;
+    height: 37px;
+    border: 1px solid #5E5E4A;
+    color: white;
+    background-color: #5E5E4A;
+    transition: .4s ease 0s;
+    cursor: pointer;
+    margin-top: 200px;
+    font-size: 13px;
+    font-weight: 300;
+}
+.section .texts button:hover{
+    color: #5E5E4A;
+    background-color: rgb(215,215,203)
+
+}
+footer{
+    width: 100%;
+    height: 576px;
+    display: flex;
+    background-color: white;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+footer .footer2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: #5E5E4A;
+    position: absolute;
+    bottom: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.footer2 p{
+    line-height: 1.7em;
+    font-size: 12px;
+    letter-spacing: .20em;
+    font-weight: 300;
+    margin-top: 15px;
+    pointer-events: auto;
+    color: white;
+    position: absolute;
+    top: -5px;
+}
+.footer2 a{
+    cursor: pointer;
+    color: white;
+    text-decoration-color: white;
+}
+
+.footext1, .footext2, .footext3{
+    width: 34%;
+    height: 536px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.footext1 .frais{
+    font-weight: 300;
+   
+    position: absolute;
+    top: 120px;
+    left: 240px;
+}
+.frais .p2{
+    transition: all .4s ease;
+}
+.frais .p2:hover{
+    transform: rotate(360deg);
+}
+.footext2 p{
+    font-size: 28px;
+    letter-spacing:normal;
+    line-height: normal;
+    pointer-events: auto;
+    font-weight: 300;
+    position: absolute;
+    top: 120px;
+    left: 305px;
+    
+}
+
+
+.footext2 ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    position: absolute;
+    top: 175px;
+    left: 307px;
+}
+.footext2 ul li{
+    line-height: 1.8em;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    cursor: pointer;
+    
+}
+.footext2 .p2{
+    top: 295px;
+    letter-spacing: 0.1em;
+    left: 308px;
+}
+.footext2 .ul2{
+    top:350px ;
+}
+.footext3 p{
+    font-size: 28px;
+    letter-spacing:1px;
+    line-height: normal;
+    pointer-events: auto;
+    font-weight: 300;
+    position: absolute;
+    top: 120px;
+    left: 155px;
+   
+}
+
+  
+.footext3 ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    position: absolute;
+    top: 175px;
+    left: 155px;
+}
+.footext3 ul li{
+    line-height: 1.8em;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+}
+.footext3 .ul1 li{
+    cursor: pointer;
+}
+.footext3 .p2{
+    top: 295px;
+}
+.footext3 .ul2{
+    top: 350px;
+}
+.footext3 .ul2 li{
+    pointer-events:auto;
+}
+.footext3 .logos{
+    width: 101px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 155px;
+    top: 430px;
+
+}
+.footext3 .logos img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    object-fit: contain;
+    transition: all .3s ease;
+}
+.footext3 .logos img:hover{
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+   
+
+
