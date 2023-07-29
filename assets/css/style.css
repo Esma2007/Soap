@@ -10,7 +10,7 @@ header{
     background-color: bisque;
     font-family: 'Poppins', sans-serif;
 }
-.header1{
+#header1{
     width:100% ;
     height: 41px;
     background-color: #5E5E4A;
@@ -19,7 +19,7 @@ header{
     align-items: center;
     font-family: 'Poppins', sans-serif;
 }
-.header1 p{
+#header1 p{
     font-size: 14px;
     margin: 0%;
     text-align: center;
@@ -49,17 +49,18 @@ header{
     
     
 }
-.links li{
+.links a{
    cursor: pointer;
    line-height: 50px;
    padding: 0 15px;
    transition: .4s ease 0s;
    font-size: 14px;
    color: rgb(94,94,74);
+   text-decoration: none;
   
    
 }
-.links li:hover{
+.links a:hover{
    transition: .4s ease 0s;
    color: rgb(145,145,102);
 
@@ -200,7 +201,7 @@ header{
 
 
 }
-.hero-section{
+ #hero-section{
     width: 100%;
     height: 75vh;
     display: flex;
@@ -383,7 +384,7 @@ header{
         transform: scale(1);
     }
 }
-.header3{
+#header3{
     width: 100%;
     height: 284px;
     display: flex;
@@ -391,7 +392,7 @@ header{
     justify-content: center;
     background-color: white;
 }
-.header3 h2{
+#header3 h2{
     
     font-size: 40px;
     letter-spacing: 0.15em;
@@ -402,7 +403,7 @@ header{
 
 
 }
-.section2{
+#section2{
     width: 100%;
     height: 687px;
     display: flex;
@@ -478,7 +479,7 @@ header{
     object-fit: cover;
    
 }
-.section3{
+#section3{
     width: 100%;
     height: 840px;
     display: flex;
@@ -567,7 +568,7 @@ header{
 
 }
 
-.section-shop{
+#section-shop{
     width: 100%;
     height: 914.95px;
     background-color: #D7D7CB;
@@ -722,7 +723,7 @@ header{
 
 
 
-.section4{
+#section4{
     width: 100%;
     height: 1463px;
     display: flex;
@@ -842,7 +843,7 @@ header{
     }
 }
 
-.section5{
+#section5{
     width: 100%;
     height: 972px;
     display: flex;
@@ -1011,7 +1012,7 @@ header{
     background-color: rgb(215,215,203)
 
 }
-footer{
+#footer1{
     width: 100%;
     height: 576px;
     display: flex;
